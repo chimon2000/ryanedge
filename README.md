@@ -7,7 +7,7 @@ In case you ever need me, I'm just one terminal command away.
 Via npx:
 
 ```bash
-npx bitandbang
+npx ryanedge
 ```
 
 ![business card](/preview.png)
