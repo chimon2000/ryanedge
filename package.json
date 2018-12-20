@@ -1,6 +1,6 @@
 {
     "name": "ryanedge",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Ryan Edge's personal npm card",
     "main": "index.js",
     "licenses": [
