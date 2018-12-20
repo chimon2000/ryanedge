@@ -21,19 +21,25 @@
         "chimon"
     ],
     "bin": {
-        "ryanedge": "./bin/index.js"
+        "ryanedge": "./bin/run"
     },
+    "files": [
+        "/bin",
+        "/lib"
+    ],
     "scripts": {
+        "prepack": "rm -rf lib && tsc -b",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
         "@types/chalk": "^2.2.0",
-        "prettier": "^1.15.3"
-    },
-    "dependencies": {
-        "boxen": "^2.1.0",
-        "chalk": "^2.4.1",
+        "prettier": "^1.15.3",
         "ts-node": "^7.0.1",
         "typescript": "^3.2.2"
+    },
+    "dependencies": {
+        "@types/node": "^10.12.18",
+        "boxen": "^2.1.0",
+        "chalk": "^2.4.1"
     }
 }
