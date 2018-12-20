@@ -1,0 +1,35 @@
+{
+    "name": "ryanedge",
+    "version": "1.0.0",
+    "description": "Ryan Edge's personal npm card",
+    "main": "index.js",
+    "licenses": [
+        {
+            "type": "UNLICENSE",
+            "url": "http://unlicense.org/"
+        }
+    ],
+    "author": "Ryan Edge <ryan.c.edge@outlook.com>",
+    "keywords": [
+        "human",
+        "card",
+        "ryanedge",
+        "chimon"
+    ],
+    "bin": {
+        "ryanedge": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@types/chalk": "^2.2.0",
+        "prettier": "^1.15.3",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.2.2"
+    },
+    "dependencies": {
+        "boxen": "^2.1.0",
+        "chalk": "^2.4.1"
+    }
+}
