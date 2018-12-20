@@ -9,6 +9,10 @@
             "url": "http://unlicense.org/"
         }
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chimon2000/ryanedge.git"
+    },
     "author": "Ryan Edge <ryan.c.edge@outlook.com>",
     "keywords": [
         "human",
