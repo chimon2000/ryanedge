@@ -1,6 +1,6 @@
 {
     "name": "ryanedge",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "Ryan Edge's personal npm card",
     "main": "index.js",
     "licenses": [
@@ -28,7 +28,7 @@
         "/lib"
     ],
     "scripts": {
-        "prepack": "rm -rf lib && tsc -b",
+        "prepublish": "rm -rf lib && tsc -b",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
